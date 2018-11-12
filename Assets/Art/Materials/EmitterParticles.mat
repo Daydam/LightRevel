@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: EmitterParticles
+  m_Shader: {fileID: 4800000, guid: 4e12dd638dc683a49ba75afedb9fffcc, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _EmissionPattern:
+        m_Texture: {fileID: 2800000, guid: f08b3ec871757614db70c3b6e4f7ef3a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask:
+        m_Texture: {fileID: 2800000, guid: 57653518f70beec45b3cbb497c555475, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Rippletexture:
+        m_Texture: {fileID: 2800000, guid: 8c4a7fca2884fab419769ccc0355c0c1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Shockwave:
+        m_Texture: {fileID: 2800000, guid: 6127eec58157c254e95c58261547bc04, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture:
+        m_Texture: {fileID: 2800000, guid: 615d853995cf2344d8641fd19cb09b5d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: 615d853995cf2344d8641fd19cb09b5d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample1:
+        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample2:
+        m_Texture: {fileID: 2800000, guid: 6127eec58157c254e95c58261547bc04, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Wave:
+        m_Texture: {fileID: 2800000, guid: 8c4a7fca2884fab419769ccc0355c0c1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaveForm:
+        m_Texture: {fileID: 2800000, guid: 8c4a7fca2884fab419769ccc0355c0c1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Wavepattern:
+        m_Texture: {fileID: 2800000, guid: 29130f1cda6bffc4eb498f952b0101ac, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BlacknessDelay: 5
+    - _BlacknessRadius: 80.028755
+    - _Float0: 1
+    - _Float1: 0
+    - _MaskClipValue: 0.5
+    - _MaxRadius: 10
+    - _Radius: 10
+    - _SpotlightRadius: 10
+    - _TessMax: 25
+    - _TessMin: 10
+    - _TessValue: 4
+    - _Volume: 1
+    - _WaveStrength: 0
+    - __dirty: 0
+    m_Colors:
+    - _Color1: {r: 1, g: 1, b: 1, a: 0}
+    - _MediumColor: {r: 1, g: 1, b: 0, a: 0}
+    - _OriginPoint: {r: 0, g: 0, b: 0, a: 0}
+    - _Position: {r: 9.03, g: 5, b: 9.45, a: 0}
+    - _SpotlightColor: {r: 0.75, g: 0.9068965, b: 1, a: 1}
+    - _SpotlightPosition: {r: -9.9, g: 5, b: -78.7, a: 0}
+    - _StrongColor: {r: 0, g: 0, b: 1, a: 0}
+    - _WaveColor: {r: 0.9344827, g: 1, b: 0.75, a: 1}
+    - _WeakColor: {r: 1, g: 0, b: 0, a: 0}
