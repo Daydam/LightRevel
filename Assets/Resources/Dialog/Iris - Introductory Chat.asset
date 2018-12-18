@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 382dcba243c770947ab75a9785d20f8d, type: 3}
+  m_Name: Iris - Introductory Chat
+  m_EditorClassIdentifier: 
+  dialogNodes:
+  - window:
+      serializedVersion: 2
+      x: 20
+      y: 60
+      width: 300
+      height: 115
+    posX: 20
+    posY: 60
+    showText: 1
+    showConditionGroups: 0
+    showConditions: 
+    dialog:
+      id: 0
+      comesFrom: 0
+      text:
+      - Hi! Nice to finally see you arrived.
+  - window:
+      serializedVersion: 2
+      x: 489
+      y: 247
+      width: 300
+      height: 150
+    posX: 636
+    posY: 114
+    showText: 1
+    showConditionGroups: 0
+    showConditions: 0000000000
+    dialog:
+      id: 1
+      comesFrom: 500
+      text:
+      - I'm Iris, silly? Don't you remember me?
+  - window:
+      serializedVersion: 2
+      x: 113
+      y: 382
+      width: 300
+      height: 150
+    posX: 415
+    posY: 356
+    showText: 1
+    showConditionGroups: 0
+    showConditions: 
+    dialog:
+      id: 2
+      comesFrom: 501
+      text:
+      - Well, it's... clearly the dark world!
+  responseNodes:
+  - window:
+      serializedVersion: 2
+      x: 422
+      y: 79
+      width: 300
+      height: 125
+    posX: 370
+    posY: 83
+    showText: 0
+    showConditionGroups: 0
+    showConditions: 
+    response:
+      id: 500
+      comesFrom: 0
+      responseText: Who are you?
+  - window:
+      serializedVersion: 2
+      x: 79
+      y: 226
+      width: 300
+      height: 125
+    posX: 370
+    posY: 70
+    showText: 0
+    showConditionGroups: 0
+    showConditions: 
+    response:
+      id: 501
+      comesFrom: 1
+      responseText: Where am I?
+  dragScreen:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 3.4028235e+38
+    height: 3.4028235e+38
+  dialogs:
+  - id: 0
+    comesFrom: 0
+    text:
+    - Hi! Nice to finally see you arrived.
+  - id: 1
+    comesFrom: 500
+    text:
+    - I'm Iris, silly? Don't you remember me?
+  - id: 2
+    comesFrom: 501
+    text:
+    - Well, it's... clearly the dark world!
+  responses:
+  - id: 500
+    comesFrom: 0
+    responseText: Who are you?
+  - id: 501
+    comesFrom: 1
+    responseText: Where am I?
+  dialogCondition: 
+  repeats: 0
