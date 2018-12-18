@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
@@ -32,6 +32,6 @@ public class DialogEditorHelpWindow : EditorWindow
             "appear in order, the player having to tap Continue in order to see the next one. <b>You can modify the maximum amount of lines you can add by going to" +
             "Setup and using the 'Max dialog lines' slider.</b>" + "\n" +
             "The conditions for dialogs and responses have not yet been implemented so I will not explain them. The rest... Well, I'm too tired and want to implement this" +
-            "system, so I'm sorry but no more explanations for now. Time to pass this final! Also, whoever is reading this, poneme mínimo un 8 master te lo pido por favor.", textStyle);
+            "system, so I'm sorry but no more explanations for now. Time to pass this final!", textStyle);
     }
 }
