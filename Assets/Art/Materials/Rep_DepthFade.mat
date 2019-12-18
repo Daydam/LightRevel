@@ -23,8 +23,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _MinDistanceView: 1
+    - _MinDistanceView: 5
     - __dirty: 0
     m_Colors:
-    - _Color: {r: 0.0851418, g: 0.5367647, b: 0, a: 0}
-    - _PlayerPos: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 0.08514165, g: 0.5367647, b: 0, a: 0}
+    - _PlayerPos: {r: -131.3, g: 0, b: -107, a: 0}

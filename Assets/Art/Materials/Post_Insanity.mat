@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Insanity
+  m_Name: Post_Insanity
   m_Shader: {fileID: 4800000, guid: 09432fead595e4d45a70be7a1cf627f5, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -44,7 +44,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BlurNoBlur: 0.396
-    - _InsanityLevel: 1
+    - _InsanityLevel: 0.4350147
     - _Offset: 0.02
     m_Colors:
     - _OffsetOne: {r: 0, g: 0, b: 0, a: 0}

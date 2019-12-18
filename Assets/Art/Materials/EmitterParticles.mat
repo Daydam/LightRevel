@@ -87,7 +87,7 @@ Material:
     - _OriginPoint: {r: 0, g: 0, b: 0, a: 0}
     - _Position: {r: 9.03, g: 5, b: 9.45, a: 0}
     - _SpotlightColor: {r: 0.75, g: 0.9068965, b: 1, a: 1}
-    - _SpotlightPosition: {r: -9.9, g: 5, b: -78.7, a: 0}
+    - _SpotlightPosition: {r: -2.1, g: 5, b: -100.1, a: 0}
     - _StrongColor: {r: 0, g: 0, b: 1, a: 0}
-    - _WaveColor: {r: 0.9344827, g: 1, b: 0.75, a: 1}
+    - _WaveColor: {r: 1, g: 1, b: 1, a: 1}
     - _WeakColor: {r: 1, g: 0, b: 0, a: 0}
